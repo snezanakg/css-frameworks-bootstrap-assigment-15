@@ -22,4 +22,34 @@ img{
     width: 100%;
     height: auto;
 }
-    
+/*responsive navigation*/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: aliceblue;
+    color: #1e1d1d;
+
+}
+.navbar-brand{
+    font-size: 24px;
+    font-weight: bold;
+}
+.navbar-nav{
+    display: flex;
+    list-style: none;
+
+}  
+.nav-bar li{
+    margin-right: 15px;
+}
+.navbar-nav li a{
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease-in;
+}
+.navbar-nav li a:hover{
+    color: #000;
+}
+/
