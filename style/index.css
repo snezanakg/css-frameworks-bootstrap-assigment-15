@@ -45,11 +45,11 @@ img{
     margin-right: 15px;
 }
 .navbar-nav li a{
-    color: #fff;
+    color: #0994f1;
     text-decoration: none;
     transition: color 0.3s ease-in;
 }
 .navbar-nav li a:hover{
     color: #000;
 }
-/
+
